@@ -29,6 +29,7 @@ SERVER_URL="http://127.0.0.1"
 PORT="1337" // or any port you want to use.
 SERVER_API_VERSION="v1"
 TARGET_SERVER_API_URL="<URL of the server you want this proxy to mirror>"
+TARGET_SERVER_AUTH_TOKEN="<'Bearer XXXX' or 'Basic XXXX' token for target server, if necessary>"
 ```
 
 ### Usage

@@ -95,8 +95,6 @@ export class TargetClient {
       headers["Content-Type"] || headers["content-type"] || "application/json";
     aug_headers["Accept"] = headers["Accept"] || headers["accept"] || "*/*";
     aug_headers["Authorization"] =
-      headers["Authorization"] ||
-      headers["authorization"] ||
       process.env.TARGET_SERVER_AUTH_TOKEN ||
       "";
     return axios.get(query, {
